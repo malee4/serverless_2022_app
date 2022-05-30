@@ -1,6 +1,6 @@
 // start coding your function here!
 function running_late(date) {
-    let hour = Date.prototype.getHours(date);
+    let hour = date.hour;
     if (hour >= 22) {
         return 'It is late!';
     }
